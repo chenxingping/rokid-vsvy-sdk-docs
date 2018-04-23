@@ -1,0 +1,834 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>mic_array集成说明 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="api_voicerecognize.html" />
+    
+    
+    <link rel="prev" href="introduce_speechexecutor.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    智能设备语音接入平台
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../introduction.html">
+            
+                <a href="../introduction.html">
+            
+                    
+                    平台简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    新手入门
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../rookie-guide/create-device.html">
+            
+                <a href="../rookie-guide/create-device.html">
+            
+                    
+                    创建设备流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../rookie-guide/usage.html">
+            
+                <a href="../rookie-guide/usage.html">
+            
+                    
+                    认证文件使用方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../important-concept.html">
+            
+                <a href="../important-concept.html">
+            
+                    
+                    重要概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Android 全链路系统集成
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="introduce.html">
+            
+                <a href="introduce.html">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="sdk_dir.html">
+            
+                <a href="sdk_dir.html">
+            
+                    
+                    SDK 目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="init_quick.html">
+            
+                <a href="init_quick.html">
+            
+                    
+                    快速集成
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="introduce_speechexecutor.html">
+            
+                <a href="introduce_speechexecutor.html">
+            
+                    
+                    SpeechExecutor模块说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.3.2" data-path="introduce_mic_array.html">
+            
+                <a href="introduce_mic_array.html">
+            
+                    
+                    mic_array集成说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="api_voicerecognize.html">
+            
+                <a href="api_voicerecognize.html">
+            
+                    
+                    API 参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Android 语音识别合成系统集成
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../speechTTS/introduce.html">
+            
+                <a href="../speechTTS/introduce.html">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../speechTTS/sdk_dir.html">
+            
+                <a href="../speechTTS/sdk_dir.html">
+            
+                    
+                    SDK 目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../common/key_secret.html">
+            
+                <a href="../common/key_secret.html">
+            
+                    
+                    获取秘钥
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../speechTTS/init.html">
+            
+                <a href="../speechTTS/init.html">
+            
+                    
+                    快速集成
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.1" data-path="../speechTTS/init_prepare.html">
+            
+                <a href="../speechTTS/init_prepare.html">
+            
+                    
+                    集成前准备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.2" data-path="../speechTTS/init_speech.html">
+            
+                <a href="../speechTTS/init_speech.html">
+            
+                    
+                    语音识别服务快速集成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.3" data-path="../speechTTS/init_tts.html">
+            
+                <a href="../speechTTS/init_tts.html">
+            
+                    
+                    语音合成服务快速集成
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../speechTTS/api.md">
+            
+                <span>
+            
+                    
+                    API参考
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.5.1" data-path="../speechTTS/api_speech.html">
+            
+                <a href="../speechTTS/api_speech.html">
+            
+                    
+                    语音识别服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5.2" data-path="../speechTTS/api_tts.html">
+            
+                <a href="../speechTTS/api_tts.html">
+            
+                    
+                    语音合成服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" >
+            
+                <a target="_blank" href="https://github.com/Rokid/RokidSpeechTTSDemo">
+            
+                    
+                    示例源码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Linux基础架构
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../speechTTS/introduce.html">
+            
+                <a href="../speechTTS/introduce.html">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../linuxsdk/sdk_linux_dir.html">
+            
+                <a href="../linuxsdk/sdk_linux_dir.html">
+            
+                    
+                    目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" >
+            
+                <span>
+            
+                    
+                    快速集成
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.3.1" data-path="../linuxsdk/init_linux_prepare.html">
+            
+                <a href="../linuxsdk/init_linux_prepare.html">
+            
+                    
+                    集成前准备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.2" data-path="../linuxsdk/begin_integrate.html">
+            
+                <a href="../linuxsdk/begin_integrate.html">
+            
+                    
+                    开始集成
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" >
+            
+                <span>
+            
+                    
+                    API 接口
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.4.1" data-path="../linuxsdk/linux_tts_api.html">
+            
+                <a href="../linuxsdk/linux_tts_api.html">
+            
+                    
+                    语音合成服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.2" data-path="../linuxsdk/linux_speech_api.html">
+            
+                <a href="../linuxsdk/linux_speech_api.html">
+            
+                    
+                    语音识别服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../common/err_code.html">
+            
+                <a href="../common/err_code.html">
+            
+                    
+                    错误码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../common/api_json.html">
+            
+                <a href="../common/api_json.html">
+            
+                    
+                    Json格式配置字串
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >mic_array集成说明</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h4 id="micarray-&#x5B9E;&#x73B0;&#x7B80;&#x8981;&#x8BF4;&#x660E;">mic_array &#x5B9E;&#x73B0;&#x7B80;&#x8981;&#x8BF4;&#x660E;</h4>
+<h5 id="micarray-&#x8981;&#x5B9E;&#x73B0;&#x7684;&#x529F;&#x80FD;">mic_array &#x8981;&#x5B9E;&#x73B0;&#x7684;&#x529F;&#x80FD;</h5>
+<ul>
+<li>mic_array&#x6A21;&#x5757;&#x8981;&#x5B9E;&#x73B0;&#x9EA6;&#x514B;&#x98CE;&#x9635;&#x5217;&#x7684;&#x6253;&#x5F00;/&#x8BFB;&#x53D6;&#x6570;&#x636E;&#x529F;&#x80FD;,&#x7136;&#x540E;turenproc&#x8FDB;&#x7A0B;&#x4F1A;&#x6839;&#x636E;&#x6807;&#x51C6;&#x7684; <code>android hw_module_t</code> &#x7684;<code>open/start_stream/read_stream</code>  &#x7B49;&#x65B9;&#x6CD5;&#x8BFB;&#x53D6;mic&#x9635;&#x5217;&#x7684;&#x6570;&#x636E;,&#x9001;&#x7ED9;&#x524D;&#x7AEF;&#x7B97;&#x6CD5;,&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5904;&#x7406;.</li>
+</ul>
+<h5 id="micarray&#x8981;&#x5B9E;&#x73B0;&#x7684;&#x63A5;&#x53E3;">mic_array&#x8981;&#x5B9E;&#x73B0;&#x7684;&#x63A5;&#x53E3;</h5>
+<pre><code>    int (*get_stream_buff_size) (struct mic_array_device_t *dev);
+    int (*start_stream) (struct mic_array_device_t *dev);
+    int (*stop_stream) (struct mic_array_device_t *dev);
+    int (*finish_stream) (struct mic_array_device_t * dev);
+    int (*resume_stream) (struct mic_array_device_t *dev);
+    int (*read_stream) (struct mic_array_device_t *dev, char *buff, unsigned int frame_cnt);
+    int (*config_stream) (struct mic_array_device_t *dev, int cmd, char *cmd_buff);
+</code></pre><ul>
+<li>&#x5982;&#x4E0A;&#x63A5;&#x53E3;&#x5747;&#x4E3A;audio hal&#x5C42;&#x6807;&#x51C6;&#x547D;&#x540D;&#x63A5;&#x53E3;(&#x53EF;&#x53C2;&#x8003;  <a href="../extra/mic_array.h">mic_array.h</a> &#x5B9A;&#x4E49;),&#x9700;&#x8981;&#x5404;&#x4E2A;&#x5382;&#x5546;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x786C;&#x4EF6;&#x9EA6;&#x514B;&#x98CE;&#x9635;&#x5217;&#x7684;&#x6253;&#x5F00;&#x4EE5;&#x53CA;&#x8BFB;&#x53D6;&#x65B9;&#x5F0F;,&#x5B9E;&#x73B0;&#x5BF9;&#x5E94;&#x63A5;&#x53E3;</li>
+</ul>
+<h5 id="micarray-&#x6A21;&#x5757;&#x7F16;&#x8BD1;&#x53C2;&#x8003;">mic_array &#x6A21;&#x5757;&#x7F16;&#x8BD1;&#x53C2;&#x8003;</h5>
+<pre><code>LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := mic_array.c
+LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
+LOCAL_MODULE := mic_array.$(TARGET_DEVICE)
+LOCAL_MODULE_TAGS := optional
+LOCAL_C_INCLUDES += hardware/libhardware \
+    external/tinyalsa/include
+LOCAL_SHARED_LIBRARIES := liblog libcutils libtinyalsa
+LOCAL_MODULE_TARGET_ARCH := arm
+include $(BUILD_SHARED_LIBRARY)
+</code></pre><ul>
+<li>&#x53C2;&#x8003;&#x5982;&#x4E0A; <code>Android.mk</code> &#x7684;&#x7F16;&#x5199;&#x65B9;&#x5F0F;,&#x5728;android&#x6E90;&#x7801;&#x4E2D;&#x7F16;&#x8BD1;&#x65F6;,&#x4F1A;&#x5C06; <code>mic_array</code> &#x6A21;&#x5757;&#x7F16;&#x8BD1;&#x4E3A; <code>mic_array.{TARGET_DEVICE}.so</code> ,&#x751F;&#x6210;&#x76EE;&#x5F55;&#x4E3A; <code>out/target/product/{TARGET_DEVICE}/system/lib/hw/</code> </li>
+</ul>
+<h5 id="micarray-&#x51E0;&#x4E2A;&#x4E3B;&#x8981;&#x7684;&#x53C2;&#x6570;">mic_array &#x51E0;&#x4E2A;&#x4E3B;&#x8981;&#x7684;&#x53C2;&#x6570;</h5>
+<pre><code>static struct pcm_config pcm_config_in = {
+    .channels = 8,
+    .rate = 48000,
+    .period_size = 1024,
+    .period_count = 8,
+    .format = PCM_FORMAT_S32_LE,
+};
+</code></pre><ul>
+<li>&#x914D;&#x7F6E;&#x786C;&#x4EF6;&#x9EA6;&#x514B;&#x98CE;&#x9635;&#x5217;&#x7684;&#x5F55;&#x97F3;&#x53C2;&#x6570;<ul>
+<li><code>channels</code> &#x4E3A;&#x9EA6;&#x514B;&#x98CE;&#x58F0;&#x9053;&#x6570;,&#x8868;&#x793A;&#x5F55;&#x97F3;&#x65F6;&#x6709;&#x51E0;&#x8DEF;&#x8F93;&#x5165;</li>
+<li><code>rate</code> &#x4E3A;&#x9EA6;&#x514B;&#x98CE;&#x5F55;&#x97F3;&#x65F6;&#x7684;&#x91C7;&#x6837;&#x7387;&#xFF0C;&#x5373;&#x6BCF;&#x79D2;&#x7684;&#x91C7;&#x6837;&#x6B21;&#x6570;&#xFF0C;&#x9488;&#x5BF9;&#x5E27;&#x800C;&#x8A00;,&#x76EE;&#x524D;&#x652F;&#x6301;&#x6700;&#x5C11;16000</li>
+<li><code>period_size</code> &#x6BCF;&#x6B21;&#x786C;&#x4EF6;&#x4E2D;&#x65AD;&#x5904;&#x7406;&#x97F3;&#x9891;&#x6570;&#x636E;&#x7684;&#x5E27;&#x6570;</li>
+<li><code>period_count</code> &#x5904;&#x7406;&#x5B8C;&#x4E00;&#x4E2A;buffer&#x6570;&#x636E;&#x6240;&#x9700;&#x7684;&#x786C;&#x4EF6;&#x4E2D;&#x65AD;&#x6B21;&#x6570;</li>
+<li><code>format</code> &#x6837;&#x672C;&#x957F;&#x5EA6;&#xFF0C;&#x97F3;&#x9891;&#x6570;&#x636E;&#x6700;&#x57FA;&#x672C;&#x7684;&#x5355;&#x4F4D;,&#x6BD4;&#x5982;PCM_FORMAT_S32_LE/PCM_FORMAT_S24_LE</li>
+<li>&#x9EA6;&#x514B;&#x98CE;&#x9635;&#x5217;&#x6BCF;&#x79D2;&#x8BFB;&#x53D6;&#x7684;&#x6570;&#x636E;&#x5927;&#x5C0F;&#x53D6;&#x51B3;&#x4E8E; <code>channels</code> / <code>rate</code>/<code>format</code>/,&#x6BD4;&#x5982;<code>format</code>&#x4E3A;<code>PCM_FORMAT_S32_LE(4 byte)</code>,<code>channels</code> &#x4E3A; 8 ,<code>rate</code> &#x4E3A; 48000,&#x65F6;,&#x9EA6;&#x514B;&#x98CE;&#x9635;&#x5217;&#x6BCF;&#x79D2;&#x8BFB;&#x53D6;&#x6570;&#x636E;&#x5927;&#x5C0F;&#x4E3A; <code>48000*8*4 = 1536000(byte)</code>, &#x9EA6;&#x514B;&#x98CE;&#x9635;&#x5217;&#x6BCF;&#x4E00;&#x6B21;&#x8BFB;&#x53D6;&#x6570;&#x636E;&#x7684;&#x5927;&#x5C0F;&#x4E3A; <code>period_count</code> <em> <code>period_size</code> ,&#x6BCF;&#x6B21;&#x8BFB;&#x53D6;&#x7684;&#x6570;&#x636E;&#x90FD;&#x662F;&#x5206;&#x5E27;&#x7EC4;&#x5408;,&#x6BCF;&#x4E00;&#x5E27;(<code>frame_size</code>)&#x5927;&#x5C0F;&#x53D6;&#x51B3;&#x4E8E;<code>channel</code> &#x4EE5;&#x53CA; <code>format</code>,&#x6BD4;&#x5982;<code>channel</code>&#x4E3A; 8,<code>format</code> &#x4E3A; <code>PCM_FORMAT_S32_LE</code>&#x65F6;,&#x6BCF;&#x4E00;&#x5E27;&#x7684;&#x5927;&#x5C0F;&#x5219;&#x4E3A; ```8</em>4 = 32(byte)<code>,&#x6BCF;&#x4E00;&#x6B21;&#x8BFB;&#x53D6;&#x7684;&#x6570;&#x636E;&#x5E27;&#x6570;</code>frame_cnt<code>&#x5373;</code>get_stream_buff_size<code>&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x7684;&#x6570;&#x636E;&#x5927;&#x5C0F;&#x4E3A;</code>period_count<code>*</code>period_size<code>/</code>frame_size<code>, &#x6B64;&#x5927;&#x5C0F;&#x5EFA;&#x8BAE;&#x6839;&#x636E;&#x9EA6;&#x514B;&#x98CE;&#x6BCF;&#x79D2;&#x8F93;&#x5165;&#x6570;&#x636E;&#x603B;&#x5927;&#x5C0F;&#x8FDB;&#x884C;&#x914D;&#x7F6E;,&#x4EE5;</code>10ms/&#x6B21;<code>&#x7684;&#x6D88;&#x8D39;&#x901F;&#x5EA6;&#x6D88;&#x8D39;&#x6570;&#x636E;.&#x540C;&#x65F6;&#x6BCF;&#x6B21;&#x8BFB;&#x53D6;&#x7684;&#x6570;&#x636E;&#x9700;&#x8981;&#x6839;&#x636E;</code>format<code>&#x548C;</code>channels<code>&#x7684;&#x914D;&#x7F6E;,&#x6309;&#x7167;</code>channels<code>&#x7684;&#x987A;&#x5E8F;&#x8FDB;&#x884C;&#x6392;&#x5217;.&#x6BD4;&#x5982;</code>format<code>&#x4E3A;</code>PCM_FORMAT_S32_LE<code>,</code>channels``` &#x4E3A; 8,&#x5219;&#x6BCF;&#x5E27;&#x6570;&#x636E;&#x683C;&#x5F0F;&#x5982;&#x4E0B;<pre><code>|32byte(mic0)|32byte(mic1)|32byte(mic2)|32byte(mic3)|32byte(mic4)|32byte(mic5)|32byte(mic6)|32byte(mic7)|32byte(mic0)|32byte(mic1)|32byte(mic2)|32byte(mic3)|32byte(mic4)|32byte(mic5)|32byte(mic6)|32byte(mic7)|.|.|.|.|.|.|.|.|
+</code></pre></li>
+</ul>
+</li>
+</ul>
+<pre><code>static struct hw_module_methods_t mic_array_module_methods = {
+    .open = mic_array_device_open,
+};
+
+struct mic_array_module_t HAL_MODULE_INFO_SYM = {
+    .common = {
+        .tag = HARDWARE_MODULE_TAG,
+        .version_major = 1,
+        .version_minor = 0,
+        .id = &quot;mic_array&quot;,
+        .name = &quot;mic_array&quot;,
+        .author = &quot;xxxxxxxx&quot;,
+        .methods = &amp;mic_array_module_methods,
+    },
+};
+</code></pre><ul>
+<li>&#x5B9A;&#x4E49;android&#x6807;&#x51C6;&#x7684;<code>HAL_MODULE_INFO_SYM</code>,&#x5176;&#x4E2D; <code>id</code> &#x548C; <code>name</code> &#x5FC5;&#x987B;&#x4F7F;&#x7528; <code>mic_array</code> ,&#x5426;&#x5219;turenproc&#x8FDB;&#x7A0B;&#x5728;&#x8FD0;&#x884C;&#x65F6;&#x4F1A;&#x63D0;&#x793A;<code>[Error] Mic Array init (not found mic_array.xxx.so) : -2</code> </li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="introduce_speechexecutor.html" class="navigation navigation-prev " aria-label="Previous page: SpeechExecutor模块说明">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="api_voicerecognize.html" class="navigation navigation-next " aria-label="Next page: API 参考">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"mic_array集成说明","level":"1.5.3.2","depth":3,"next":{"title":"API 参考","level":"1.5.4","depth":2,"path":"fullLink/api_voicerecognize.md","ref":"fullLink/api_voicerecognize.md","articles":[]},"previous":{"title":"SpeechExecutor模块说明","level":"1.5.3.1","depth":3,"path":"fullLink/introduce_speechexecutor.md","ref":"fullLink/introduce_speechexecutor.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters-interactive"],"pluginsConfig":{"expandable-chapters-interactive":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"fullLink/introduce_mic_array.md","mtime":"2018-04-23T13:50:14.864Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-23T13:51:12.397Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
